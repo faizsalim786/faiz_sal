@@ -765,6 +765,20 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">AllOrders</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -903,6 +917,12 @@
 
 <MAPDELETE FIELD="/elements;2;1">
 </MAPDELETE>
+
+<MAPCOPY FROM="/order;4;1;fashionSiteDocs.v1:orders" TO="/AllOrders;4;1;fashionSiteDocs.v1:orders">
+</MAPCOPY>
+
+<MAPDELETE FIELD="/order;4;1;fashionSiteDocs.v1:orders">
+</MAPDELETE>
 </MAP>
 </SEQUENCE>
 
@@ -937,7 +957,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">order</value>
+        <value name="field_name">AllOrders</value>
         <value name="field_type">recref</value>
         <value name="field_dim">1</value>
         <value name="nillable">true</value>
@@ -959,27 +979,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">pub.event:exceptionInfo</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-        </record>
-        <value name="is_public">false</value>
-        <value name="field_name">AllOrders</value>
-        <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
-        <value name="wrapper_type">IData</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
-        <value name="rec_closed">true</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
