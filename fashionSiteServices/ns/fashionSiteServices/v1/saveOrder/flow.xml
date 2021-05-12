@@ -349,9 +349,6 @@
 <MAPDELETE FIELD="/key;3;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/order;4;0;fashionSiteDocs.v1:orders">
-</MAPDELETE>
-
 <MAPDELETE FIELD="/cacheName;1;0">
 </MAPDELETE>
 
@@ -379,6 +376,9 @@
 </MAPSET>
 
 <MAPDELETE FIELD="/value;3;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/order;4;0;fashionSiteDocs.v1:orders">
 </MAPDELETE>
 </MAP>
 </INVOKE>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -311,6 +312,9 @@
 
 <MAPCOPY FROM="/value;1;0" TO="/result;1;0">
 </MAPCOPY>
+
+<MAPDELETE FIELD="/numlist;1;0">
+</MAPDELETE>
 </MAP>
 </INVOKE>
 </LOOP>

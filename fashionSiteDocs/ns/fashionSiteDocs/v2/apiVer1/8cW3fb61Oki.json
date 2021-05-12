@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "mobile_number ": {
+      "type": "integer"
+    },
+    "email_id ": {
+    "type": "string",
+    "format": "email"
+}
+    ,
+    "source": {
+      "type": "string"
+    },
+    "is_verified ": {
+      "type": "string"
+    },
+	"OTP": {
+	  "type": "integer"
+	},
+    "accept_notifications": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "mobile_number ",
+    "email_id ",
+    "source",
+    "is_verified ",
+    "accept_notifications"
+  ]
+}
