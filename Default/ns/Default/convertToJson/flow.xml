@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -46,7 +47,7 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">fashionSiteDocs.v2:api</value>
+            <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
           </record>
         </array>
         <value name="modifiable">true</value>
@@ -99,7 +100,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:api</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -109,7 +110,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Inputs;4;0;fashionSiteDocs.v2:api" TO="/document;2;0/Inputs;4;0;fashionSiteDocs.v2:api">
+<MAPCOPY FROM="/Inputs;4;0;fashionSiteDocs.docs.v2:api" TO="/document;2;0/Inputs;4;0;fashionSiteDocs.docs.v2:api">
 </MAPCOPY>
 </MAP>
 </INVOKE>

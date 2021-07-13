@@ -34,7 +34,7 @@
           <value name="is_global">false</value>
           <value name="rec_closed">true</value>
           <value name="modifiable">true</value>
-          <value name="rec_ref">fashionSiteDocs.v2:api</value>
+          <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
         </record>
       </array>
       <value name="modifiable">true</value>

@@ -33,7 +33,7 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
           <value name="modifiable">true</value>
-          <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+          <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
         </record>
       </array>
       <value name="modifiable">true</value>

@@ -109,7 +109,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -149,7 +149,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/AllOrders;4;0;fashionSiteDocs.v1:orders" TO="/document;2;0">
+<MAPCOPY FROM="/AllOrders;4;0;fashionSiteDocs.docs.v1:orders" TO="/document;2;0">
 </MAPCOPY>
 </MAP>
 
@@ -199,7 +199,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -386,7 +386,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
@@ -709,7 +709,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
@@ -763,7 +763,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/AllOrders;4;0;fashionSiteDocs.v1:orders" TO="/documents;2;1">
+<MAPCOPY FROM="/AllOrders;4;0;fashionSiteDocs.docs.v1:orders" TO="/documents;2;1">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/groupCriteria;2;1/compareStringsAs;1;0">

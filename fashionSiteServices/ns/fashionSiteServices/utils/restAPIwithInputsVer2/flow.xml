@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -37,7 +38,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:apiVer1</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:apiVer1</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -223,7 +224,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:apiVer1</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:apiVer1</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -244,7 +245,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Fields;4;0;fashionSiteDocs.v2:apiVer1" TO="/jsonDocument;2;0">
+<MAPCOPY FROM="/Fields;4;0;fashionSiteDocs.docs.v2:apiVer1" TO="/jsonDocument;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/conformsTo;1;0">
@@ -390,7 +391,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:apiVer1</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:apiVer1</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -651,7 +652,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:apiVer1</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:apiVer1</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>

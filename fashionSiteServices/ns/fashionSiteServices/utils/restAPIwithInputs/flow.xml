@@ -38,7 +38,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:api</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -216,7 +216,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:api</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -237,7 +237,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Inputs;4;0;fashionSiteDocs.v2:api" TO="/jsonDocument;2;0">
+<MAPCOPY FROM="/Inputs;4;0;fashionSiteDocs.docs.v2:api" TO="/jsonDocument;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/conformsTo;1;0">
@@ -383,7 +383,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:api</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -641,7 +641,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:api</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:api</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>

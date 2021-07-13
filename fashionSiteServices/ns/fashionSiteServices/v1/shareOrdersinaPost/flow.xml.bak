@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -1437,7 +1438,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/body;2;0" TO="/jsonStream;3;0">
+<MAPCOPY FROM="/body;2;0/stream;3;0" TO="/jsonStream;3;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>

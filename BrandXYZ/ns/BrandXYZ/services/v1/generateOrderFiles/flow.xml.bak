@@ -791,7 +791,7 @@
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/groupCriteria;2;1/key;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="false" FIELD="/groupCriteria;2;1/key;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">

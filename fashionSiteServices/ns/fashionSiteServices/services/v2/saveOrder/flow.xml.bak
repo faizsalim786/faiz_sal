@@ -2004,11 +2004,14 @@
 
   <!-- nodes -->
 
+<MAPCOPY FROM="/jsonString;1;0" TO="/data;1;0">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/fileName;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">C:/wMServiceDesigner/faiz/BrandXYZ/sample.json</value>
+  <value name="xml">C:/wMServiceDesigner/faiz/BrandXYZ/xyz.json</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
@@ -2023,9 +2026,6 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPCOPY FROM="/jsonString;1;0" TO="/data;1;0">
-</MAPCOPY>
 </MAP>
 </INVOKE>
 </SEQUENCE>

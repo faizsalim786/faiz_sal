@@ -109,7 +109,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -149,7 +149,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/order;4;0;fashionSiteDocs.v2:orders/emailAddress;1;0" TO="/emailAddress;1;0">
+<MAPCOPY FROM="/order;4;0;fashionSiteDocs.docs.v2:orders/emailAddress;1;0" TO="/emailAddress;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -304,7 +304,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -519,7 +519,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1178,7 +1178,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1528,7 +1528,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v2:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v2:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1862,7 +1862,7 @@
 <MAPDELETE FIELD="/body;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/order;4;0;fashionSiteDocs.v2:orders">
+<MAPDELETE FIELD="/order;4;0;fashionSiteDocs.docs.v2:orders">
 </MAPDELETE>
 </MAP>
 </INVOKE>

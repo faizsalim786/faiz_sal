@@ -74,7 +74,7 @@
             <value name="is_global">false</value>
             <value name="is_soap_array_encoding_used">false</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+            <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
           </record>
         </array>
         <value name="modifiable">true</value>
@@ -266,7 +266,7 @@
         <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -295,7 +295,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/AllOrders;4;1;fashionSiteDocs.v1:orders" TO="/document;2;0/AllOrders;4;1;fashionSiteDocs.v1:orders">
+<MAPCOPY FROM="/AllOrders;4;1;fashionSiteDocs.docs.v1:orders" TO="/document;2;0/AllOrders;4;1;fashionSiteDocs.docs.v1:orders">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/status;1;0">
@@ -335,7 +335,7 @@
         <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+        <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -360,7 +360,7 @@
             <value name="is_global">false</value>
             <value name="is_soap_array_encoding_used">false</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">fashionSiteDocs.v1:orders</value>
+            <value name="rec_ref">fashionSiteDocs.docs.v1:orders</value>
           </record>
         </array>
         <value name="modifiable">true</value>
@@ -414,7 +414,7 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/AllOrders;4;1;fashionSiteDocs.v1:orders">
+<MAPDELETE FIELD="/AllOrders;4;1;fashionSiteDocs.docs.v1:orders">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/document;2;0">
